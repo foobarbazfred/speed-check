@@ -76,6 +76,7 @@ Generated machine code
 100002ec:       f001 02c0       and.w   r2, r1, #192    @ 0xc0
 100002f0:       f500 5180       add.w   r1, r0, #4096   @ 0x1000
 ```
+(we can check asm code by ,,,    arm-none-eabi-objdump -d myblink.elf | grep -A 20 main)
 loop part
 ```
 100002a8:       f04f 0201       mov.w   r2, #1
