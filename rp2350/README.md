@@ -84,3 +84,6 @@ loop part
 100002b0:       ec41 3040       mcrr    0, 4, r3, r1, cr0
 100002b4:       e7f8            b.n     100002a8 <main+0x34>
 ```
+### generated pulse
+- 34.40ns
+- 29.07MHz
